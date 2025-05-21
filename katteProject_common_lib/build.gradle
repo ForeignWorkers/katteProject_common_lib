@@ -1,8 +1,8 @@
 plugins {
-    id 'java'
+    id 'java-library'
 }
 
-group = 'com.github.minquu'
+group = 'com.github.ForeignWorkers'
 version = '1.0.0'
 
 repositories {
