@@ -1,2 +1,5 @@
 jdk:
-  - openjdk23
+  - openjdk17
+
+install:
+  - ./gradlew clean build -x test
