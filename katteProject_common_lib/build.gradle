@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.github.ForeignWorkers'
-version = '1.0.0'
+version = '1.0.6'
 
 repositories {
     mavenCentral()
@@ -12,7 +12,9 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 dependencies {
