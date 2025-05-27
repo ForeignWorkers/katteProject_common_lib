@@ -13,6 +13,7 @@ public class UserBean {
     private String nickname;
     private String phone_number;
     private Date birth_date;
+    private String introduce_desc;
     private String profile_url;
     private Date sign_up_time;
     private Boolean is_admin;
