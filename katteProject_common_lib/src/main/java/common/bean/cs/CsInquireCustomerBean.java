@@ -1,4 +1,4 @@
-package common.bean;
+package common.bean.cs;
 
 import lombok.Data;
 

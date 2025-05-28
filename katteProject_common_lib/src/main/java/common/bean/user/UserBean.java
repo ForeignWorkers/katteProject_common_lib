@@ -1,4 +1,4 @@
-package common.bean;
+package common.bean.user;
 import lombok.Data;
 
 import java.util.Date;
