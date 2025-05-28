@@ -13,5 +13,5 @@ public class ContentStyleBean {
     private String caption;
     private Date create_time;
     private List<String> hashtags;
-    private int img_count;
+    private int img_count = 1;
 }
