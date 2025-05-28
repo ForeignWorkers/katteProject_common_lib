@@ -3,6 +3,7 @@ package common.bean;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class ContentStyleBean {
@@ -11,4 +12,5 @@ public class ContentStyleBean {
     private int user_id;
     private String caption;
     private Date create_time;
+    private List<String> hashtags;
 }
