@@ -13,7 +13,7 @@ public class CsInquireCustomerBean {
     private String inquire_title;
     private String inquire_content;
     private LocalDateTime inquire_at;
-    private Inquire_status inquire_status;
+    private inquire_status inquire_status;
     private boolean is_deleted;
 
 
