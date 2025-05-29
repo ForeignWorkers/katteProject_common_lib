@@ -8,7 +8,7 @@ import java.util.Date;
 public class UserKatteMoneyLogBean {
     private int id;
     private int user_id;
-    private int change_mount;
+    private int change_amount;
     private reason reason;
     private Date created_at;
 
