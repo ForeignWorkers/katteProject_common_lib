@@ -7,18 +7,18 @@ import java.time.LocalDateTime;
 
 @Data
 public class CsInquireCustomerBean {
-    private int inquireId;
-    private int userId;
-    private InquireCategory inquireCategory;
-    private String inquireTitle;
-    private String inquireContent;
-    private LocalDateTime inquireAt;
-    private InquireStatus inquireStatus;
-    private boolean isDeleted;
+    private int inquire_id;
+    private int user_id;
+    private inquire_category inquire_Category;
+    private String inquire_title;
+    private String inquire_content;
+    private LocalDateTime inquire_at;
+    private Inquire_status inquire_Status;
+    private boolean is_deleted;
 
 
 
-    public enum InquireCategory{
+    public enum inquire_category{
         ACCOUNT
         , ORDER
         , DELIVERY
@@ -32,7 +32,7 @@ public class CsInquireCustomerBean {
     };
 
 
-    public enum InquireStatus{
+    public enum inquire_status{
         PENDING
         , ONGOING
         , COMPLETE;
