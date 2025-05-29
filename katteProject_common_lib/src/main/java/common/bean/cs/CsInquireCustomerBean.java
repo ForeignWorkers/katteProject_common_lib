@@ -9,11 +9,11 @@ import java.time.LocalDateTime;
 public class CsInquireCustomerBean {
     private int inquire_id;
     private int user_id;
-    private inquire_category inquire_Category;
+    private inquire_category inquire_category;
     private String inquire_title;
     private String inquire_content;
     private LocalDateTime inquire_at;
-    private Inquire_status inquire_Status;
+    private Inquire_status inquire_status;
     private boolean is_deleted;
 
 
