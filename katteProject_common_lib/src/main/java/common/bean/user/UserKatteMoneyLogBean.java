@@ -13,6 +13,6 @@ public class UserKatteMoneyLogBean {
     private Date created_at;
 
     public enum reason {
-        charge, user, refund
+        CHARGE, USED, REFUNDED
     }
 }
