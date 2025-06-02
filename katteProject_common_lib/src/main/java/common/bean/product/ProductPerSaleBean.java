@@ -14,6 +14,6 @@ public class ProductPerSaleBean {
         IN_PROGRESS,
         COMPLETED,
         RETURNED,
-        CANCELLED;
+        CANCELLED
     }
 }
