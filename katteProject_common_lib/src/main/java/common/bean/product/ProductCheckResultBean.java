@@ -7,7 +7,6 @@ import java.util.Date;
 
 @Data
 public class ProductCheckResultBean {
-
     private int id;                  // auto_id (PK)
     private int per_sale_id;          // 연결된 per_sale.id
     private int request_user_id;      // 검수 요청자 (user.info.id)
@@ -19,16 +18,11 @@ public class ProductCheckResultBean {
     private String check_step;       // 검수 단계 enum (e.g., watting, in_progress, completed, returned, cancelled)
     private String sale_step;        // 판매 상태 enum (e.g., inspection, inspection_pass, inspection_fail, on_sale, expired, sold_out)
 
-    public static enum CheckStep {
-        WATTING,
+    public enum CheckStep {
+        WAITING,
         IN_PROGRESS,
         COMPLETED,
         RETURNED,
         CANCELLED;
-
-        private CheckStep(){
-
-        }
     }
-
 }

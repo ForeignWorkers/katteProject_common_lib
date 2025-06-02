@@ -6,7 +6,6 @@ import java.util.Date;
 
 @Data
 public class EcommerceOrderBean {
-
     private int order_id;                  // 주문 고유 ID (PK)
     private int user_id;                   // 구매자 ID
     private int product_id;                // 주문한 제품 ID
@@ -19,5 +18,4 @@ public class EcommerceOrderBean {
     private String order_status;           // 주문 상태 (ENUM: payment_complete, shipping, delivered)
     private Date ordered_at;               // 주문 시간
     private int terms_id;                  // 구매 약관 ID
-
 }
