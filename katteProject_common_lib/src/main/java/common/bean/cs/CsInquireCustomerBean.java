@@ -31,7 +31,7 @@ public class CsInquireCustomerBean {
     };
 
 
-    public enum inquire_status{
+    public static enum inquire_status{
         PENDING
         , ONGOING
         , COMPLETE;
