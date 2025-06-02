@@ -13,7 +13,7 @@ public class CsAnnounceBean {
     private String announce_content;
     private LocalDateTime announce_at;
 
-    public static enum announce_category {
+    public enum announce_category {
         ANNOUNCE
         , EVENT
         , ETC;

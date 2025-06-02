@@ -14,7 +14,7 @@ public class CsStandardBean {
 
 
 
-    public static enum standard_category{
+    public enum standard_category{
         SHOES,
         CLOTHES,
         BAG,

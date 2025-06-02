@@ -19,7 +19,7 @@ public class CsFaqBean {
 
 
 
-    public static enum faq_category{
+    public enum faq_category{
         TERM,
         GENERAL,
         BUY,
