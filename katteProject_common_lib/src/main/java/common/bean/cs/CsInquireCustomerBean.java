@@ -27,14 +27,14 @@ public class CsInquireCustomerBean {
         , SETTLEMENT
         , TECHNICAL
         , INAPPROPRIATE
-        , ETC;
+        , ETC
     };
 
 
     public enum inquire_status{
         PENDING
         , ONGOING
-        , COMPLETE;
+        , COMPLETE
     };
 
 }

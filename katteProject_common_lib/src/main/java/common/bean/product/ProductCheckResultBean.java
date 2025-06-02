@@ -23,6 +23,6 @@ public class ProductCheckResultBean {
         IN_PROGRESS,
         COMPLETED,
         RETURNED,
-        CANCELLED;
+        CANCELLED
     }
 }
