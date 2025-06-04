@@ -14,8 +14,8 @@ public class EcommerceOrderDetailBean {
     private String ordered_at; // 주문 일시
 
     public enum OrderStatus {
-        payment_complete,
-        shipping,
-        delivered
+        PAYMENT_COMPLETE,
+        SHIPPING,
+        DELIVERED
     }
 }

@@ -15,7 +15,7 @@ public class EcommercePaymentDeductResponseBean {
     private String error_message; // 오류 메시지
 
     public enum Status {
-        success,
-        fail
+        SUCCESS,
+        FAIL
     }
 }

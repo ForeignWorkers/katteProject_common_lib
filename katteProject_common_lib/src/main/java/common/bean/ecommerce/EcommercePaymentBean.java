@@ -14,7 +14,7 @@ public class EcommercePaymentBean {
     private Date paid_at; // 결제 일시
 
     public enum Status {
-        paid,
-        fail
+        PAID,
+        FAIL
     }
 }

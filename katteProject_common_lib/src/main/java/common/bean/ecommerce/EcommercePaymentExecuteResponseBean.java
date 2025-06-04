@@ -8,7 +8,7 @@ public class EcommercePaymentExecuteResponseBean {
     private Status status; // 결제 결과 상태
 
     public enum Status {
-        paid,
-        fail
+        PAID,
+        FAIL
     }
 }

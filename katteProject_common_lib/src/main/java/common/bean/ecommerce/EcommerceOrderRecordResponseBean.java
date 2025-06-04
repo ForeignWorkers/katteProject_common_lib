@@ -22,8 +22,8 @@ public class EcommerceOrderRecordResponseBean {
     private String error_message; // 오류 메시지
 
     public enum OrderStatus {
-        payment_complete,
-        shipping,
-        delivered
+        PAYMENT_COMPLETE,
+        SHIPPING,
+        DELIVERED
     }
 }
