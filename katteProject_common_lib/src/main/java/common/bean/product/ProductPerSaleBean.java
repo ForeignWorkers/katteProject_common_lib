@@ -7,13 +7,5 @@ public class ProductPerSaleBean {
     private int sale_user_id;     // 판매자 ID (user.info 참조)
     private int product_id;      // 상품 ID (product.info 참조)
     private int shortform_id;    // 숏폼 ID (content.shortform 참조)
-    private int auction_id;      // 경매 ID (auction_data 참조)
-
-    public enum SaleStep{
-        WAITING,
-        IN_PROGRESS,
-        COMPLETED,
-        RETURNED,
-        CANCELLED
-    }
+    private int auction_data_id;      // 경매 ID (auction_data 참조)
 }
