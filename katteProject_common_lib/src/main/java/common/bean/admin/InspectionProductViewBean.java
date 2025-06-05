@@ -10,5 +10,11 @@ public class InspectionProductViewBean {
     private String shortform_title;
     private String seller_email;
     private Date check_start_day;
-    private String check_step;
+    private CheckStep check_step;
+
+    public enum CheckStep {
+        IN_PROGRESS, //검수중
+        COMPLETED, //검수 완료
+        RETURNED //상품이 반송처리됨
+    }
 }

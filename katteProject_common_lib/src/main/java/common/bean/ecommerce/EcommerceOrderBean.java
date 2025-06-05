@@ -22,9 +22,9 @@ public class EcommerceOrderBean {
     private int auction_id;                // auction_id (옥션 id)
 
     public enum OrderStatus {
-        pending,
-        payment_complete,
-        shipping,
-        delivered
+        PENDING,
+        PAYMENT_COMPLETE,
+        SHIPPING,
+        DELIVERED
     }
 }

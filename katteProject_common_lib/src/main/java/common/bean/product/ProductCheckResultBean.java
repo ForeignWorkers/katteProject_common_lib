@@ -28,8 +28,8 @@ public class ProductCheckResultBean {
 
     //검수자가 보는 상태
     public enum CheckStep {
-        in_progress, //검수중
-        completed, //검수 완료
-        returned //상품이 반송처리됨
+        IN_PROGRESS, //검수중
+        COMPLETED, //검수 완료
+        RETURNED //상품이 반송처리됨
     }
 }
