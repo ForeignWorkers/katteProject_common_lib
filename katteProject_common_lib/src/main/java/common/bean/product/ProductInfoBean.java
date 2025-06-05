@@ -7,14 +7,16 @@ import java.util.Date;
 public class ProductInfoBean {
     private int id;
     private int product_id;
-    private int product_base_id;
+    private Integer product_base_id;
     private String model_code;
     private Category category;
+    private String detail_category;
     private String product_name;
+    private String product_name_kor;
     private String product_desc;
     private String brand_name;
     private Date release_date;
-    private int release_price;
+    private Integer release_price;
 
     public enum Category{
         shoes, clothing, bag, accessory, electronics, beauty, lifestyle, collectible, etc
