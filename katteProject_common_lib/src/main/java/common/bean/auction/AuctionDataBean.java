@@ -17,7 +17,8 @@ public class AuctionDataBean {
         private Integer instant_price;
         private Boolean is_instant_sale;
         private String auction_size_value;
-        private int product_size_id;
+        private Integer product_size_id;
+        private Boolean is_settle_amount; //is_settle_amount bool : 낙찰 이후 판매자 금액 처리 정산 상태 true(정산됨) / false(정산되지 않음 기본값)
 }
 
 
