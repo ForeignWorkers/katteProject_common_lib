@@ -17,4 +17,5 @@ public class UserBean {
     private String profile_url;
     private Date sign_up_time;
     private Boolean is_admin;
+    private Date registration_date;
 }
