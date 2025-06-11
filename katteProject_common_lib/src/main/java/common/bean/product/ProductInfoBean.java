@@ -9,7 +9,7 @@ public class ProductInfoBean {
     private int product_id;
     private Integer product_base_id;
     private String model_code;
-    private Category category;
+    private String category;
     private String detail_category;
     private String product_name;
     private String product_name_kor;
