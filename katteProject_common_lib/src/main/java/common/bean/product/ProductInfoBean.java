@@ -2,6 +2,7 @@ package common.bean.product;
 
 import lombok.Data;
 import java.util.Date;
+
 @Data
 public class ProductInfoBean {
     private int id;
@@ -31,7 +32,6 @@ public class ProductInfoBean {
         전자("tech"),
         캠핑("camping"),
         가구리빙("furniture_living");
-        ;
 
         private final String dbValue;
 
@@ -43,15 +43,23 @@ public class ProductInfoBean {
             return dbValue;
         }
 
-
-
         public static Category fromDbValue(String dbValue) {
             for (Category c : values()) {
-                if (c.name().equals(dbValue)) return c; // DB에 한글 저장 시
-                if (c.dbValue.equalsIgnoreCase(dbValue)) return c; // DB에 영문 저장 시
+                // ✅ Enum 이름으로 매핑
+                if (c.name().equalsIgnoreCase(dbValue)) {
+                    return c;
+                }
+
+                // ✅ dbValue로 매핑
+                if (c.getDbValue().equalsIgnoreCase(dbValue)) {
+                    return c;
+                }
             }
-            //예외 처리 가구/리빙 한정
-            if ("가구/리빙".equals(dbValue)) return Category.가구리빙;
+
+            // 예외 처리
+            if ("가구/리빙".equals(dbValue)) {
+                return 가구리빙;
+            }
 
             throw new IllegalArgumentException("Unknown category: " + dbValue);
         }
