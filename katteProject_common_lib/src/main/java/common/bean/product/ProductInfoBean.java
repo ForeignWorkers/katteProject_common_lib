@@ -25,11 +25,13 @@ public class ProductInfoBean {
         가방("bag"),
         지갑("wallet"),
         시계("watch"),
-        패션잡화("accessory"),
-        컬렉터블("collectible"),
+        악세사리("accessory"),
+        콜렉터("collectible"),
         뷰티("beauty"),
-        테크("tech"),
-        캠핑("camping");
+        전자("tech"),
+        캠핑("camping"),
+        가구리빙("furniture_living");
+        ;
 
         private final String dbValue;
 
@@ -41,11 +43,16 @@ public class ProductInfoBean {
             return dbValue;
         }
 
+
+
         public static Category fromDbValue(String dbValue) {
             for (Category c : values()) {
                 if (c.name().equals(dbValue)) return c; // DB에 한글 저장 시
                 if (c.dbValue.equalsIgnoreCase(dbValue)) return c; // DB에 영문 저장 시
             }
+            //예외 처리 가구/리빙 한정
+            if ("가구/리빙".equals(dbValue)) return Category.가구리빙;
+
             throw new IllegalArgumentException("Unknown category: " + dbValue);
         }
     }
