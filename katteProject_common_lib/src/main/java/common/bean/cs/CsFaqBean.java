@@ -8,14 +8,14 @@ import java.time.LocalDateTime;
 public class CsFaqBean {
 
     private int faq_id;
-    private faq_category faq_category;
+    private Faq_Category faq_category;
     private String faq_title;
     private String faq_content;
     private LocalDateTime created_at;
 
 
 
-    public enum faq_category{
+    public enum Faq_Category{
         TERM,
         GENERAL,
         BUY,
