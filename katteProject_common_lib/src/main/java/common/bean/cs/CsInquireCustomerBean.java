@@ -9,15 +9,15 @@ import java.time.LocalDateTime;
 public class CsInquireCustomerBean {
     private int inquire_id;
     private int user_id;
-    private inquire_category inquire_category;
+    private Inquire_Category inquire_category;
     private String inquire_title;
     private String inquire_content;
     private LocalDateTime inquire_at;
-    private inquire_status inquire_status;
+    private Inquire_Status inquire_status;
 
 
 
-    public enum inquire_category{
+    public enum Inquire_Category{
         ACCOUNT
         , ORDER
         , DELIVERY
@@ -31,7 +31,7 @@ public class CsInquireCustomerBean {
     };
 
 
-    public enum inquire_status{
+    public enum Inquire_Status{
         PENDING
         , ONGOING
         , COMPLETE

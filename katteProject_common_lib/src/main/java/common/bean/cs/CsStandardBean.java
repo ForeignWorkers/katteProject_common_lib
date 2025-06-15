@@ -8,13 +8,13 @@ import java.time.LocalDateTime;
 public class CsStandardBean {
 
     private int standard_id;
-    private standard_category standard_category;
+    private Standard_Category standard_category;
     private String standard_content;
     private LocalDateTime create_at;
 
 
 
-    public enum standard_category{
+    public enum Standard_Category{
         SHOES,
         CLOTHES,
         BAG,
