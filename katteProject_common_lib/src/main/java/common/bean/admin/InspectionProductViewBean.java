@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Data
 public class InspectionProductViewBean {
+    private int check_result_id;
     private String product_name;
     private String shortform_title;
     private String seller_email;
