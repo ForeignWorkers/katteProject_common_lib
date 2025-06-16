@@ -6,6 +6,7 @@ import java.util.Date;
 
 @Data
 public class RegisteredProductViewBean {
+    private int per_sale_id;                // 상품 주문 번호
     private String product_name;            // 상품명
     private String shortform_title;         // 숏폼 타이틀
     private String seller_email;            // 판매자 이메일
@@ -16,6 +17,7 @@ public class RegisteredProductViewBean {
     private Integer instant_price;          // 즉시구매가 (nullable)
     private Integer current_price;          // 현재 경매가 (nullable, 경매 진행 중일 때만 표시)
     private Date auction_end_time;          // 경매 종료일 (nullable, ON_SALE일 때만 표시)       // 판매 상태
+    private int auction_data_id;            // 옥션 idprivate int auction_data_id;            // 옥션 id
 
     public enum SaleStep {
         INSPECTION, // 검수 진행 중(등록~검수중)
