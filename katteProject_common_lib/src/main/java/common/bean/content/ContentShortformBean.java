@@ -17,4 +17,7 @@ public class ContentShortformBean {
 
     private String userNickname;
     private String profileImgUrl;
+
+    private String currentPrice;
+    private String instantPrice;
 }
