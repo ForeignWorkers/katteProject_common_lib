@@ -11,4 +11,5 @@ public class UserAddressBean {
     private String address_line01;
     private String address_line02;
     private Boolean is_main;
+    private int post_num;
 }
