@@ -15,5 +15,6 @@ public class ContentStyleBean {
     private Date created_date;
     private int img_count = 1;
     private int like_count;
-
+    private List<String> productTag;
+    private List<String> imageUrls;
 }
