@@ -14,4 +14,7 @@ public class ContentShortBean {
     private int current_view_count;
     private int shortform_like_count;
     private String content_url;
+
+    private String userNickname;
+    private String profileImgUrl;
 }
