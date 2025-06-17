@@ -3,7 +3,7 @@ package common.bean.content;
 import lombok.Data;
 
 @Data
-public class ContentStyleProductJoinBean {
+public class ProductBrandLikeDetailBean {
     private int brand_id;
     private String brand_name;
     private String brand_desc;
