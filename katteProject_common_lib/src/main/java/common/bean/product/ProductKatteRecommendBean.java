@@ -1,5 +1,11 @@
 package common.bean.product;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+
 public class ProductKatteRecommendBean {
     private int product_id;
     private String product_name;
