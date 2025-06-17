@@ -1,5 +1,8 @@
 package common.bean.product;
 
+import lombok.Data;
+
+@Data
 public class ProductKatteRecommendBean {
     private int product_id;
     private String product_name;
