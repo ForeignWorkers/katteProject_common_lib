@@ -9,9 +9,4 @@ public class UserKatteMoneyRefundBean {
     private int amount;
     private String account_number;
     private String bank_type;
-    private String status;
-
-    /*public enum status {
-        REQUESTED, PROCESSING, COMPLETED
-    }*/
 }
