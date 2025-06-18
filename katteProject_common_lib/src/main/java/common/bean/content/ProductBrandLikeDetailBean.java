@@ -2,6 +2,8 @@ package common.bean.content;
 
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Data
 public class ProductBrandLikeDetailBean {
     private int brand_id;
