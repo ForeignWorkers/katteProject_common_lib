@@ -7,6 +7,7 @@ import java.util.Date;
 @Data
 public class RegisteredProductViewBean {
     private int per_sale_id;                // 상품 주문 번호
+    private int product_id;                 // 상품 id
     private String product_name;            // 상품명
     private String shortform_title;         // 숏폼 타이틀
     private String seller_email;            // 판매자 이메일
