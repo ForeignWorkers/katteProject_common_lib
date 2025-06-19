@@ -16,7 +16,7 @@ public class EcommerceOrderBean {
     private int used_point_id;             // 사용한 포인트 로그 ID
     private int used_coupon_id;            // 사용한 쿠폰 내역 ID
     private OrderStatus order_status;           // 주문 상태 (ENUM: payment_complete, shipping, delivered)
-    private LocalDateTime ordered_at;               // 주문 시간
+    private Data ordered_at;               // 주문 시간
     private boolean order_confirm;         // 구매 확정 (false = 미확정 / true = 확정)
     private int terms_id;                  // 구매 약관 ID
     private int auction_id;                // auction_id (옥션 id)
