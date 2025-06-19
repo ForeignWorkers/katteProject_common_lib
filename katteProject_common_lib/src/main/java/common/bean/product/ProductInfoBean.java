@@ -1,10 +1,11 @@
 package common.bean.product;
 
 import lombok.Data;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
 public class ProductInfoBean {
+
     private int id;
     private int product_id;
     private Integer product_base_id;
@@ -15,6 +16,7 @@ public class ProductInfoBean {
     private String product_name_kor;
     private String product_desc;
     private String brand_name;
-    private LocalDateTime release_date;
+    private Date release_date;
     private Integer release_price;
+
 }
